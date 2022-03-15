@@ -1,0 +1,27 @@
+Content Models in HTML:
+    Block-level elements:
+        Render to begin on a new line.
+        May contain inline or other block-level elements.
+        - <div></div>
+
+    Inline elements:
+        Render on the same line.
+        May only contain other inline elements.
+        - <span></span>
+
+Semantic tags:
+    - <header></header>
+    - <section></section>
+    - <article></article>
+    - <aside></aside> contains information that relates to the main
+    topic, i.e. related posts
+    - <footer></footer> 
+
+Entity references:
+    - (<): &lt;
+    - (>): &gt;
+    - (&): &amp;
+    - (©): &copy;
+    -(non-breaking space): &nbsp;
+
+browser-sync start --server --directory --files "*"
