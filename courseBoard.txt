@@ -1,27 +1,76 @@
-Content Models in HTML:
-    Block-level elements:
-        Render to begin on a new line.
-        May contain inline or other block-level elements.
-        - <div></div>
+HTML
+    Content Models in HTML:
+        Block-level elements:
+            Render to begin on a new line.
+            May contain inline or other block-level elements.
+            - <div></div>
 
-    Inline elements:
-        Render on the same line.
-        May only contain other inline elements.
-        - <span></span>
+        Inline elements:
+            Render on the same line.
+            May only contain other inline elements.
+            - <span></span>
 
-Semantic tags:
-    - <header></header>
-    - <section></section>
-    - <article></article>
-    - <aside></aside> contains information that relates to the main
-    topic, i.e. related posts
-    - <footer></footer> 
+    Semantic tags:
+        - <header></header>
+        - <section></section>
+        - <article></article>
+        - <aside></aside> contains information that relates to the main
+        topic, i.e. related posts
+        - <footer></footer> 
 
-Entity references:
-    - (<): &lt;
-    - (>): &gt;
-    - (&): &amp;
-    - (©): &copy;
-    -(non-breaking space): &nbsp;
-
+    Entity references:
+        - (<): &lt;
+        - (>): &gt;
+        - (&): &amp;
+        - (©): &copy;
+        -(non-breaking space): &nbsp;
+        -("/"): &quot;
+    
 browser-sync start --server --directory --files "*"
+
+CSS
+    Element Selector --> i.e: 
+        p{
+            css declaration;
+        }
+    
+    Class Selector --> i.e:
+        .blue{
+            css declaration;
+        }
+    how to use it? -> <div class = "blue">...</div>
+
+    Id Selector --> i.e:
+        #name{
+            css declaration;
+        }
+    how to use it? -> <p id = "name">...</p>
+
+    Grouping selectors i.e.: 
+        div, .blue{
+            css declaration;
+        }
+    
+    Element with class selector i.e:
+        p.big{
+            css declaration;
+        }
+        this combination affects only the <p> tags of the "big" class.
+
+    Child Selector i.e:
+        article > p{
+            css declaration;
+        }
+        Every element <p> that is a direct child of <article> element.
+
+    Descendant Selector i.e:
+        article p{
+            css declaration;
+        }
+        Every <p> that is inside (at any level) an <article> element.
+
+    Pseudo-Class Selector i.e:
+        selector:pseudo-class{
+            css declaration;
+        }
+        
