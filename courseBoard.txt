@@ -74,3 +74,53 @@ CSS
             css declaration;
         }
         
+    Styling text: common tags
+        font-family
+        color
+        font-style
+        font-weight
+        font-size
+        text-transform
+        text-align
+
+    *{
+        css declaration;
+    }
+    This type of selector allow us make declarations without inheritance.
+    The declaration will affect all the elements inside the document.
+
+    Positioning elements:
+
+        Static Positioning: Normal document flow. Default for all, except html,
+        (Positions offsets are ignored).
+
+        Relative Positioning: Element is positioned relative to its position
+        in normal document flow.
+
+        Floating Elements:
+            - Floating elements can produce very flexible layouts.
+            - Floats are taken out of normal document flow .
+            - Floats don't have vertical margin collapse.
+            - To resume normal document flow, use the -clear- property.
+
+    Media Querys: it's an special way to filter what declarations should have
+    a kind of device.
+        
+        Basic syntax: 
+            @media(media feature){ ... } or
+            @media(media feature) logical opeator (media feature){ ... }
+
+Bootstrap
+
+    Bootstrap grid system basics:
+        col-SIZE-SPAN
+            col --> to indicate is a column
+            SIZE --> the size of each column (xs, sm, md, lg)
+            SPAN --> how many columns element should span (1 through 12)
+
+    
+
+    
+
+
+
